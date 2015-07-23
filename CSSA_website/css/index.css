@@ -29,6 +29,9 @@ body {
 	padding: 0px;
 	overflow: hidden;
 }
+.line-break {
+  margin-bottom: 25px;
+}
 
 <!-- NAV BAR -->
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
@@ -133,6 +136,14 @@ body {
   width: 100%;
 }
 
+/* Footer Styling */
+.footer {
+  text-align: center;
+}
+.footer p {
+  font-weight: 300;
+  font-size: 18px;
+}
 #cssmenu.align-right li.last > a:after,
 #cssmenu.align-right li:last-child > a:after {
   display: block;
