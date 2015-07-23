@@ -33,7 +33,7 @@ body {
   margin-bottom: 25px;
 }
 
-<!-- NAV BAR -->
+/* NAV BAR */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   width: 100%;
@@ -139,6 +139,9 @@ body {
 /* Footer Styling */
 .footer {
   text-align: center;
+}
+.footer-minor p {
+  margin-bottom: 0px;
 }
 .footer p {
   font-weight: 300;
