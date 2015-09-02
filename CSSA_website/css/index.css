@@ -1,6 +1,14 @@
 body {
 	margin: 0px;
 }
+/*carousel*/
+.carousel-caption {
+	top:50%;
+	max-width: 550px;
+    padding: 0 20px;
+    margin:0 auto;
+    text-align:center;
+}
 
 #hoverbar {
 	width:100%;
@@ -154,6 +162,17 @@ body {
 
 #cssmenu.align-right li:first-child a:after {
   display: none;
+}
+
+.frame{
+  display: inline-block;
+  padding: 0 10px;
+  height: 100px;
+  transition: all .2s ease-in-out;
+}
+
+.frame:hover{
+  height: 120px;
 }
 
 @media screen and (max-width: 768px) {
